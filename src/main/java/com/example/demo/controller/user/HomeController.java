@@ -18,7 +18,7 @@ public class HomeController {
 	@RequestMapping("/") 
 	@ResponseBody
 	public String showMain() {
-		return articleDao.getAllCount() + "개 입니다. 다시";
+		return articleDao.getAllCount() + "개 입니다. 학원에서테스트";
 	}
 	
 	@RequestMapping("/doSetSessionA") 
