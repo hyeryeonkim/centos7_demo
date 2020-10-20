@@ -37,4 +37,15 @@ public class HomeController {
 		
 		
 	}
+	
+	
+	@RequestMapping("/gitHubTest") 
+	@ResponseBody
+	public int getgitHubTest(HttpSession session) {
+		
+		System.out.println("흠");
+		return (int)session.getAttribute("a");
+		
+		
+	}
 }
